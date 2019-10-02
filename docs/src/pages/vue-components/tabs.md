@@ -3,6 +3,7 @@ title: Tabs
 desc: The QTabs, QTab and QRouteTab Vue components are a way of helping the user navigate between pages or tab panels.
 related:
   - /vue-components/tab-panels
+  
   - /vue-components/button-toggle
   - /vue-components/icon
   - /vue-components/badge
@@ -60,7 +61,7 @@ Notice we need to specify the `shrink` prop. By default, QTabs tries to expand t
 
 <doc-example title="Tabs in a QToolbar" file="QTabs/TabsInToolbar" />
 
-## Using along QTabsPanel
+## Using along QTabPanels
 
 ::: tip
 QTabPanels can be used as standalone too. They do not depend on the presence of a QTabs. Also, they can be placed anywhere within a page, not just near a QTabs.
